@@ -32,5 +32,5 @@ const Schema = mongoose.Schema;
    }
   });
 
- module.exports= Item = mongoose.Model('item',ItemSchema);
+ module.exports= Item = mongoose.model('item',ItemSchema);
 
